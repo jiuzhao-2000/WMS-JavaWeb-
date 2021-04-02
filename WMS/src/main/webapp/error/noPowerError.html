@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>您没有权限</title>
+</head>
+<body>
+<h1>您没有权限</h1>
+<a onclick="goPrePage()">返回</a>
+<script>
+    function goPrePage() {
+        self.location = document.referrer;
+    }
+</script>
+</body>
+</html>

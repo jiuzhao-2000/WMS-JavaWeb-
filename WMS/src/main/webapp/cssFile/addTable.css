@@ -1,0 +1,23 @@
+#rightBodyDiv span {
+    border: 20px;
+    height: 60px;
+}
+
+tr {
+    height: 60px;
+}
+
+table {
+    width: 60%;
+    size: 24px;
+    border: 2px solid #ea9808;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    margin: 0 auto;
+}

@@ -1,0 +1,29 @@
+table {
+    margin: 0 auto;
+    width: 80%;
+    font-family: verdana, arial, sans-serif;
+    font-size: 24px;
+    color: #333333;
+    border-width: 1px;
+    border-color: #34f111;
+    border-collapse: collapse;
+}
+
+table th {
+    background-color: #00ff1d;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #ffb700;
+}
+
+table tr {
+    background-color: #ffb700;
+}
+
+table td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #a0ff00;
+}

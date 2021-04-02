@@ -1,0 +1,72 @@
+@charset "utf-8";
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to top, #ffffff, #ec8d27);
+}
+
+
+#loginDiv {
+    border-radius: 1rem;
+    box-shadow: 0 0 12px #000000;
+    width: 300px;
+    height: 350px;
+    background-color: #ffffff;
+    position: relative;
+    top: 20%;
+    left: 75%;
+    transform: translateY(-20%) translateX(-25%);
+}
+
+
+#infoHeader {
+    border-radius: 1rem;
+    width: 100%;
+    background-color: #ffffff;
+    height: 30%;
+}
+
+#userLoginTitle {
+    position: absolute;
+    top: 10%;
+    right: 20%;
+    transform: translateY(-90%) translateX(-50%);
+    color: #16660e;
+    font-family: 宋体, sans-serif;
+
+}
+
+#infoBody {
+    width: 100%;
+    height: 70%;
+    background-color: aqua;
+    border-radius: 0 0 1rem 1rem;
+}
+
+input#id, #pwd {
+    outline: none;
+    width: 100%;
+    height: 2rem;
+    border: none;
+    background-color: aqua;
+    border-bottom: .1rem solid rgb(181, 154, 254);
+}
+
+#buttonDiv {
+    width: 100%;
+}
+
+#buttonDiv input {
+    color: white;
+    border: none;
+    margin: 1rem 0 0;
+    width: 40%;
+    height: 2rem;
+    outline: none;
+    border-radius: 2rem;
+    background: linear-gradient(90deg, rgb(181, 154, 254), rgb(254, 289, 253));
+    box-shadow: 0 0 8px rgb(181, 154, 254);
+    cursor: pointer;
+}

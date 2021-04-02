@@ -1,0 +1,42 @@
+#bodyDiv {
+    width: 90%;
+    height: 600px;
+    font-size: 18px;
+    border: 7px groove #00ffff;
+    background-color: #00ffff;
+    position: relative;
+}
+
+div {
+    margin: 0 auto;
+}
+
+#leftBodyDiv {
+    width: 30%;
+    height: 600px;
+    position: absolute;
+
+}
+
+#rightBodyDiv {
+    right: 0;
+    top: 0;
+    width: 70%;
+    height: 600px;
+    position: absolute;
+}
+
+#weLine {
+    position: absolute;
+    top: 0;
+    left: 30%;
+}
+
+#leftBodyDiv ul {
+    adding: 15px 0px 0px 50px;
+    list-style-image: url(../image/ulHead.jpg);
+}
+
+#leftBodyDiv ul a {
+    text-decoration: none;
+}
